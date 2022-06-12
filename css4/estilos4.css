@@ -1,0 +1,72 @@
+html{
+    font-size: 90%;
+}
+
+body{
+    font-size: 100%;
+    background-image: url(../img4/fondo.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
+.img2{
+    background-image: url(../img4/serviciosescolares.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    height:3cm;
+    padding:1cm;
+    background-position: center;
+}
+
+.text3{
+    text-align: center;
+    text-shadow: 0px 4px rgb(174, 243, 255);
+}
+
+.parrafo{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14;
+    padding: 0 2in;
+}
+
+.separarmain{
+    display: flex;
+    justify-content:space-between;
+}
+
+.separar{
+    padding:1rem 6.5rem;
+    text-align: center;
+}
+
+.separarmain h1{
+    text-align:center;
+    text-shadow:0px 2px rgb(100, 179, 135);
+    text-decoration:solid;
+}
+
+div.separar img{
+    width: 10rem;
+    height: 11rem;
+}
+
+div.img3 img{
+    width: 15cm;
+    height: 10cm;
+}  
+
+button:hover{
+    border-color: rgb(107, 220, 240);
+}
+ 
+footer{
+    background-color: rgb(116, 116, 116);
+    padding: 2cm 1cm;
+    color: white;
+    text-align: center;
+    background-image: url(../Img/logo.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+

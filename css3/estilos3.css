@@ -1,0 +1,66 @@
+html{
+    font-size: 90%;
+}
+
+body{
+    font-size: 100%;
+    background-image:url(../img3/fondo.jpg);
+    background-size:contain;
+    background-repeat:repeat;
+    padding: 1mm;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 0px 4px rgb(157, 193, 235);
+}
+
+div.left img{
+    width: 35%;
+    height: auto;
+    float: left;
+    padding: 1rem 5rem;
+}
+
+h2{
+    text-align: center;
+    text-shadow: 0px 4px rgb(157, 193, 235);
+    padding: 4rem 9rem;
+}
+
+.actividades{
+    display:inline;
+    justify-content:center;
+}
+
+.separar1{
+    padding: 2rem 30mm 1mm;
+}
+
+.separar h2{
+    text-align: center;
+    text-shadow:0px 2px rgb(100, 179, 135);
+    text-decoration:none;
+}
+
+div.right img{
+    width: 33%;
+    height: auto;
+    float: right;
+    padding: 14.7mm;
+}
+
+.separar2{
+    padding: 9rem 25mm 2rem;
+}
+
+footer{
+    background-color: rgb(116, 116, 116);
+    padding: 2cm 1cm;
+    color: white;
+    text-align: center;
+    background-image: url(../Img/logo.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+

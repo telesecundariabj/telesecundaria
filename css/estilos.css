@@ -1,0 +1,92 @@
+html{
+    font-size: 90%;
+}
+
+body{
+    font-size: 100%;
+    background-image: url(../Img/d.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.navegar{
+    background-color:aliceblue;
+}
+
+.centrar{
+    width: 60rem;
+    margin: 0 auto 0 auto
+}
+
+.navegar2 a{
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align:center;
+}
+
+.navegar2 a:hover{
+    background-color:rgb(169, 208, 241);
+    margin: 1rem;
+}
+
+.navegar2{
+    display:flex;
+    justify-content: space-between;
+}
+
+div.texto2{
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 5rem;
+
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14;
+    padding: 4px 10px 1;
+}
+
+.img{
+    background-image: url(../Img/Escuela.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 16rem;
+    padding: 1rem;
+}
+
+div.imagen{
+    margin: 35px 28px;
+    box-shadow: 0 6px 8px 0 green;
+    float: right;
+    width: 315px;
+}
+
+div.imagen img{
+    width: 95%;
+    height: auto;
+    image-orientation:from-image;
+}
+
+div.imagen:hover{
+    border: 1px solid rgb(6, 80, 4);
+    transform: rotate(-6deg);
+}
+
+.imagenes{
+    padding: 0 0 3in;
+}
+
+footer{
+    background-color: rgb(116, 116, 116);
+    padding: 2cm 1cm;
+    color: white;
+    text-align: center;
+    background-image: url(../Img/logo.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+

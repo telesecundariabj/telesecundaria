@@ -1,0 +1,71 @@
+html{
+    font-size: 90%;
+}
+
+body{
+    font-size: 100%;
+    background-image:url(../img2/fondo.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 0px 4px rgb(174, 243, 255);
+}
+
+h2{
+    text-align: center;
+    text-shadow: 0px 4px rgb(174, 243, 255);
+}
+
+.texto{
+    padding:0 280px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.imag img{
+    width: 25%;
+    height: auto;
+}
+
+button{
+    background-position: center;
+}
+
+button:hover{
+    border-color: rgb(107, 220, 240);
+}
+
+div.imagen{
+    margin: 35px 28px;
+    box-shadow: 0 6px 8px 0 rgb(12, 168, 216);
+    float: right;
+    width: 350px;
+}
+
+div.imagen img{
+    width: 90%;
+    height: auto;
+    image-orientation:from-image;
+}
+
+div.imagen:hover{
+    border: 1px solid rgb(45, 228, 252);
+    transform: rotate(-3deg);
+}
+
+.imagenes{
+    padding:0 0 3in ;
+}
+
+footer{
+    background-color: rgb(116, 116, 116);
+    padding: 2cm 1cm;
+    color: white;
+    text-align: center;
+    background-image: url(../Img/logo.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
